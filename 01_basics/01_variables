@@ -1,0 +1,18 @@
+const accountId = 3526733
+let accountEmail = "ksoh0907@gmail.com";
+var password = "qweras";
+accountCity = "pune"
+
+// accountId = 10 // not allowed cannot change constant
+console.log(accountId);
+
+accountEmail = "io@google.com"
+password = "password"
+accountCity = "nashik"
+
+console.table([accountEmail, accountId, password, accountCity]);
+
+
+/* Note 
+Prefer not to use var 
+due to issue in block scope and functional scope */

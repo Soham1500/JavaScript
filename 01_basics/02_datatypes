@@ -1,0 +1,20 @@
+// alert(3+3) we are using nodejs not browser so alert will show error
+
+let name = "Soham"
+let age = 22
+let isLoggedIn = false
+
+// number =>
+//bigint
+//string '' or ""1
+//boolean true or false 
+// null => standalone value 
+// undefined => 
+// symbol => unique
+
+//object 
+
+console.log(typeof undefined);
+console.log(typeof null);
+
+
