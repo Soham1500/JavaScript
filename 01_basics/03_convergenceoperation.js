@@ -23,4 +23,21 @@ let convertedage = String(age)
 console.log(convertedage);
 console.log(typeof convertedage);
 
+// *************************operations******************
 
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
+let str1 = "hello"
+let str2 = " soham"
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log(+true);// op 1
+console.log(+"");// op 0
+
+
+
+console.log(echo("left", 4) / echo("middle", 3) ** echo("right", 2));
